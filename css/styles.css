@@ -1,0 +1,207 @@
+:root {
+  --main-font: 'Roboto', sans-serif;
+  --secondary-font: 'Raleway', sans-serif;
+  --accent-color: #2196f3;
+  --titles-color: #212121;
+  --description-color: #757575;
+  --light-text-color: #fff;
+  --dark-background-color: #2f303a;
+  --logo-second-part-color: #000;
+  --footer-link-color: rgba(255, 255, 255, 0.6);
+}
+
+body {
+  font-family: var(--main-font);
+  font-style: normal;
+}
+/*  ============ COMPONENTS  ============ */
+.logo {
+  font-family: var(--secondary-font);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.192;
+  letter-spacing: 0.03em;
+  color: var(--accent-color);
+}
+
+.logo-second-part {
+  color: var(--logo-second-part-color);
+}
+
+.section-title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.667;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--titles-color);
+}
+.accent:hover,
+.accent:focus {
+  color: var(--accent-color);
+}
+
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.address {
+  font-style: normal;
+}
+
+/*  ============ END COMPONENTS  ============ */
+
+/*  ============ HEADER  ============ */
+.navigation-list-link {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.143;
+  letter-spacing: 0.02em;
+  color: var(--titles-color);
+}
+
+.header-list-link {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.143;
+  letter-spacing: 0.02em;
+  color: var(--description-color);
+}
+
+/*  ============ END HEADER  ============ */
+
+/*  ============ HERO  ============ */
+.hero {
+  background-color: var(--dark-background-color);
+}
+.hero-title {
+  font-style: normal;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.364;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--light-text-color);
+}
+
+.modal-btn {
+  font-family: var(--main-font);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.875;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: var(--light-text-color);
+}
+/*  ============ END HERO  ============ */
+
+/* ============ BENEFITS  ============*/
+.benefits-list-head {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.143;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--titles-color);
+}
+.benefits-list-discription {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.714;
+  letter-spacing: 0.03em;
+  color: var(--description-color);
+}
+/* ============ END BENEFITS  ============*/
+
+/* ============ WHAT WE DO  ============*/
+
+/* ============ END WHAT WE DO  ============*/
+
+/* ============ TEAM  ============*/
+.team-list-item {
+  font-size: 16px;
+  line-height: 1.188;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+.team-list-name {
+  font-style: normal;
+  font-weight: 500;
+  color: var(--titles-color);
+}
+.team-list-discription {
+  font-style: normal;
+  font-weight: 400;
+  color: var(--description-color);
+}
+/* ============ END TEAM  ============*/
+
+/* ============ FOOTER  ============*/
+.footer {
+  background-color: var(--dark-background-color);
+}
+.footer-address-list {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.714;
+  letter-spacing: 0.03em;
+}
+.footer-map-link {
+  color: var(--light-text-color);
+}
+.footer-link {
+  color: var(--footer-link-color);
+}
+/* ============ END FOOTER  ============*/
+
+/* ====================== PORTFOLIO PAGE  ========================*/
+/* ============ FILTERS  ============*/
+
+.filters-btn {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.625;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--titles-color);
+}
+
+.filters-btn:hover,
+.filters-btn:focus {
+  color: var(--light-text-color);
+}
+/* ============ END FILTERS  ============*/
+
+/* ============ PROJECTS  ============*/
+.projects-header {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: #212121;
+}
+
+.projects-subtitle {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.875;
+  letter-spacing: 0.03em;
+  color: var(--description-color);
+}
+/* ============ END PROJECTS  ============*/
