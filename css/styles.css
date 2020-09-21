@@ -9,7 +9,7 @@
   --logo-second-part-color: #000;
   --footer-link-color: rgba(255, 255, 255, 0.6);
   --filter-btn-color: #f5f4fa;
-  --project-border-color: #eeeeee;
+  --border-color: #eeeeee;
 }
 
 *,
@@ -228,6 +228,9 @@ img {
 /* ============ END BENEFITS  ============*/
 
 /* ============ WHAT WE DO  ============*/
+.what-we-do {
+  padding-bottom: 94px;
+}
 
 .what-we-do-list {
   display: flex;
@@ -239,6 +242,7 @@ img {
 
 .team {
   padding-bottom: 94px;
+  background-color: var(--filter-btn-color);
 }
 
 .team-list {
@@ -257,10 +261,13 @@ img {
 }
 
 .team-list-content {
-  padding-left: 40px;
-  padding-right: 40px;
-  padding-top: 30px;
+  padding: 30px 40px;
   text-align: center;
+  border-bottom: var(--border-color);
+  border-right: var(--border-color);
+  border-left: var(--border-color);
+  border-radius: 10px;
+  background-color: var(--light-text-color);
 }
 
 .team-list-name {
@@ -378,9 +385,9 @@ img {
 
 .projects-list-content {
   padding: 20px 24px;
-  border-right: 1px solid var(--project-border-color);
-  border-left: 1px solid var(--project-border-color);
-  border-bottom: 1px solid var(--project-border-color);
+  border-right: 1px solid var(--border-color);
+  border-left: 1px solid var(--border-color);
+  border-bottom: 1px solid var(--border-color);
 }
 
 .projects-header {
